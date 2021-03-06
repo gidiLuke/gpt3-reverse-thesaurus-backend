@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Optional
+from typing import Optional, Dict
 import config
 
 from fastapi import FastAPI
@@ -48,16 +48,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.post("/api/v1/findwords/")
 async def ask_gpt(query: Query):
     prompt = build_prompt(query)
     # TODO max_tokens needs to be calculated based on required number of suggestions
-    result = await cleaned_completion(prompt, max_tokens=100, engine='davinci', temperature=0.5, top_p=1,
-                                      frequency_penalty=0.2, stop=['\n\n'])
-    suggestions = result.split(',')[:query.max_suggestions]
+    result = await cleaned_completion(prompt, max_tokens=200, engine='davinci', temperature=0.5, top_p=1,
+                                      frequency_penalty=0.2, stop=['}'])
+    suggestions = result.replace('"', '').replace('\n', '').split(';')[:query.max_suggestions]
+    suggestions_dict = {sub.split(":")[0].strip(): sub.split(":")[1].strip() for sub in suggestions}
 
     return {
-        "suggestions": suggestions,
+        "suggestions": suggestions_dict,
         "input_language": query.input_language,
         "output_language": query.output_language,
         "tonality": query.tonality
@@ -72,8 +74,8 @@ def build_prompt(user_query: Query):
     elif user_query.input_language == Languages.German and \
             user_query.output_language == Languages.English and \
             user_query.tonality == Tonality.Friendly:
-        train = read_prompt('dn_en_friendly')
+        train = read_prompt('de_en_friendly')
     else:
         raise NotImplementedError
 
-    return append_prompt(user_query.user_prompt, train)
+    return append_prompt(user_query.user_prompt+'}\n\n{', train)

@@ -1,1 +1,43 @@
-Test Prompt
+German descriptions that generate a set of matching English words. The meaning of each matching word is given a good descriptions in German. The answer is in JSON format.
+
+Q: wenn etwas oder jemand abrupt irgendwo weggeht
+
+{
+
+ "abscond":"meist schnell und wenig vorbereitet, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen";
+
+ "bolt": "sich entfernen, davonmachen";
+
+ "decamp": "die Außerbetriebnahme bekanntgeben";
+
+ "depart": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben"
+
+}
+
+Q: eine Mischung aus schrecklichen Geräuschen
+
+{
+
+ "cacophony": "Töne/Klänge, die als besonders unangenehm empfunden werden";
+
+ "screaming": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen";
+
+ "discord: "unharmonischer, unschöner Klang"
+
+}
+
+Q: sehr hungrig fühlend
+
+{
+
+ "hungry": "Hunger verspürend, Hunger habend";
+
+ "ravenous": "sehr aufs Essen bedacht, unersättlich im Esse";
+
+ "starved": "aufgrund von Nahrungsmangel gedarbt";
+
+ "famished": "vor Hunger gestorben"
+
+}
+
+Q: {
