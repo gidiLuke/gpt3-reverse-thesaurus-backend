@@ -7,10 +7,13 @@ from pydantic import BaseModel
 
 import openai, chronological
 from chronological import read_prompt, append_prompt, cleaned_completion, main
+from fastapi.middleware.cors import CORSMiddleware
 
 # Create config.py and add the key as gpt_key for both libraries (or directly enter it here)
 openai.api_key = config.gpt_key
 chronological.set_api_key(config.gpt_key)
+
+
 
 
 class Languages(str, Enum):
@@ -35,6 +38,15 @@ class Query(BaseModel):
 
 app = FastAPI()
 
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/api/v1/findwords/")
 async def ask_gpt(query: Query):
