@@ -10,7 +10,7 @@ Q: wenn etwas oder jemand abrupt irgendwo weggeht
 
  "den Polen machen": "das Lager heimlich verlassen, abmarschieren, ausreisen, aufbrechen, das Lager abbrechen",
 
- "abreisen": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben, abfliegen, abfahren, wegreisen, fortreisen, dahinscheiden, entschlafen, sterben"
+ "abreisen": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben, abfliegen, abfahren, wegreisen, fortreisen"
 
 }
 
@@ -22,7 +22,7 @@ Q: eine Mischung aus schrecklichen Geräuschen
 
  "Kreischen": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen, kreischen, brüllen",
 
- "Dissonanz: "unharmonischer, unschöner Klang,  disharmonisch "
+ "Dissonanz: "unharmonischer, unschöner Klang, disharmonisch "
 
 }
 
@@ -36,7 +36,7 @@ Q: sehr hungrig fühlend
 
  "am Verhungern": "aufgrund von Nahrungsmangel gestorben, ausgehungert, verhungert, gedarbt",
 
- "Mordshunger haben": "ausgehungert, verhungert, gehungert, vor Hunger fast gestorben"
+ "Mordshunger haben": "ausgehungert, hungern, vor Hunger fast sterben"
 
 }
 

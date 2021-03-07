@@ -4,7 +4,7 @@ Q: wenn etwas oder jemand abrupt irgendwo weggeht
 
 {
 
- "abscond":"meist schnell und wenig vorbereitet, manchmal heimlich, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen",
+ "abscond": "meist schnell und wenig vorbereitet, manchmal heimlich, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen",
 
  "bolt": "sich schnell entfernen, davonmachen, fliehen, sich aus dem Staub machen, ausreißen",
 
@@ -22,7 +22,7 @@ Q: eine Mischung aus schrecklichen Geräuschen
 
  "screaming": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen, kreischen, brüllen",
 
- "discord: "unharmonischer, unschöner Klang, Dissonanz, disharmonisch "
+ "discord": "unharmonischer, unschöner Klang, Dissonanz, disharmonisch"
 
 }
 

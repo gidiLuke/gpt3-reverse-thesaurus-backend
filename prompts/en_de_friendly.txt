@@ -4,13 +4,13 @@ Q: if somebody abruptly leaves a place
 
 {
 
- "ausbüxen":"meist schnell und wenig vorbereitet, manchmal heimlich, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen",
+ "ausbüxen":"usually quickly and with little preparation, sometimes secretly, fleeing from an imminent danger or from an unpleasant situation",
 
- "ausreißen": "sich schnell entfernen, davonmachen, fliehen, sich aus dem Staub machen, ausreißen",
+ "ausreißen": "to move away quickly, to make off, to flee, to make a break for it, to run away",
 
- "den Polen machen": "das Lager heimlich verlassen, abmarschieren, ausreisen, aufbrechen, das Lager abbrechen",
+ "den Polen machen": "to leave the camp secretly, to march off, to leave, to break camp",
 
- "apreisen": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben, abfliegen, abfahren, wegreisen, fortreisen, dahinscheiden, entschlafen, sterben"
+ "abreisen": "to depart from a place (driving, in a vehicle), to fly away, to depart, to travel away"
 
 }
 
@@ -18,11 +18,11 @@ Q: a mix of horrible sounds
 
 {
 
- "Kakofonie": "Töne/Klänge, die als besonders unangenehm empfunden werden, Katzenmusik, Hupkonzert, mIssklang",
+ "Kakofonie": "Tones/sounds that are perceived as particularly unpleasant, cat music, honking concert, discordant sound",
 
- "Kreischen": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen, kreischen, brüllen",
+ "Kreischen": "Noise caused by loud, continuous vocalizations (screaming) of living beings, screeching, roaring",
 
- "Dissonanz: "unharmonischer, unschöner Klang, Dissonanz, disharmonisch "
+ "Dissonanz: "inharmonic, unattractive sound, dissonance, disharmonic"
 
 }
 
@@ -30,13 +30,13 @@ Q: beeing very hungry
 
 {
 
- "hungrig": "Hunger verspürend, Hunger habend",
+ "hungrig": "Feeling hungry, being hungry",
 
- "Kohldampf haben": "sehr aufs Essen bedacht, unersättlich im Esse, Kohldampf haben, einen Bärenhunger haben",
+ "Kohldampf haben": "very eager to eat, insatiable in eating, hungry for cabbage, ravenous for food",
 
- "am Verhungern": "aufgrund von Nahrungsmangel gestorben, ausgehungert, verhungert, gedarbt",
+ "am Verhungern": "died due to lack of food, starved, starved to death, starved to death",
 
- "Mordshunger haben": "ausgehungert, verhungert, gehungert, Mordshunger haben, vor Hunger fast gestorben"
+ "Mordshunger haben": "starved, famished, starved, hungry as hell, almost died of hunger"
 
 }
 
