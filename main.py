@@ -53,7 +53,7 @@ app.add_middleware(
 async def ask_gpt(query: Query):
     prompt = build_prompt(query)
     # TODO max_tokens needs to be calculated based on required number of suggestions
-    result = await cleaned_completion(prompt, max_tokens=200, engine='davinci', temperature=0.5, top_p=1,
+    result = await cleaned_completion(prompt, max_tokens=2000, engine='davinci', temperature=0.65, top_p=1,
                                       frequency_penalty=0.2, stop=['}'])
     suggestions = result.replace('"', '').replace('\n', '').split(';')[:query.max_suggestions]
     suggestions_dict = {sub.split(":")[0].strip(): sub.split(":")[1].strip() for sub in suggestions}
