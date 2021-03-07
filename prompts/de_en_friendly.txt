@@ -4,13 +4,13 @@ Q: wenn etwas oder jemand abrupt irgendwo weggeht
 
 {
 
- "abscond":"meist schnell und wenig vorbereitet, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen";
+ "abscond":"meist schnell und wenig vorbereitet, manchmal heimlich, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen",
 
- "bolt": "sich entfernen, davonmachen";
+ "bolt": "sich schnell entfernen, davonmachen, fliehen, sich aus dem Staub machen, ausreißen",
 
- "decamp": "die Außerbetriebnahme bekanntgeben";
+ "decamp": "das Lager heimlich verlassen, abmarschieren, ausreisen, aufbrechen, das Lager abbrechen",
 
- "depart": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben"
+ "depart": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben, abfliegen, abfahren, wegreisen, fortreisen, dahinscheiden, entschlafen, sterben"
 
 }
 
@@ -18,11 +18,11 @@ Q: eine Mischung aus schrecklichen Geräuschen
 
 {
 
- "cacophony": "Töne/Klänge, die als besonders unangenehm empfunden werden";
+ "cacophony": "Töne/Klänge, die als besonders unangenehm empfunden werden, Katzenmusik, Hupkonzert, mIssklang",
 
- "screaming": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen";
+ "screaming": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen, kreischen, brüllen",
 
- "discord: "unharmonischer, unschöner Klang"
+ "discord: "unharmonischer, unschöner Klang, Dissonanz, disharmonisch "
 
 }
 
@@ -30,13 +30,13 @@ Q: sehr hungrig fühlend
 
 {
 
- "hungry": "Hunger verspürend, Hunger habend";
+ "hungry": "Hunger verspürend, Hunger habend",
 
- "ravenous": "sehr aufs Essen bedacht, unersättlich im Esse";
+ "ravenous": "sehr aufs Essen bedacht, unersättlich im Esse, Kohldampf haben, einen Bärenhunger haben",
 
- "starved": "aufgrund von Nahrungsmangel gedarbt";
+ "starved": "aufgrund von Nahrungsmangel gestorben, ausgehungert, verhungert, gedarbt",
 
- "famished": "vor Hunger gestorben"
+ "famished": "ausgehungert, verhungert, gehungert, Mordshunger haben, vor Hunger gestorben"
 
 }
 

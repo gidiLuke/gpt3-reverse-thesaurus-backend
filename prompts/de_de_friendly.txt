@@ -1,0 +1,43 @@
+German descriptions that generate a set of matching German words. The meaning of each matching word is given a good descriptions in German. The answer is in JSON format.
+
+Q: wenn etwas oder jemand abrupt irgendwo weggeht
+
+{
+
+ "ausbüxen":"meist schnell und wenig vorbereitet, manchmal heimlich, vor einer drohenden Gefahr oder aus einer unangenehmen Situation fliehen",
+
+ "ausreißen": "sich schnell entfernen, davonmachen, fliehen, sich aus dem Staub machen, ausreißen",
+
+ "den Polen machen": "das Lager heimlich verlassen, abmarschieren, ausreisen, aufbrechen, das Lager abbrechen",
+
+ "abreisen": "sich (fahrend, im Fahrzeug) von einem Ort wegbegeben, abfliegen, abfahren, wegreisen, fortreisen, dahinscheiden, entschlafen, sterben"
+
+}
+
+Q: eine Mischung aus schrecklichen Geräuschen
+
+{
+
+ "Kakofonie": "Töne/Klänge, die als besonders unangenehm empfunden werden, Katzenmusik, Hupkonzert, mIssklang",
+
+ "Kreischen": "Lärm, verursacht durch laute, anhaltende Lautäußerungen (Schreien) von Lebewesen, kreischen, brüllen",
+
+ "Dissonanz: "unharmonischer, unschöner Klang,  disharmonisch "
+
+}
+
+Q: sehr hungrig fühlend
+
+{
+
+ "hungrig": "Hunger verspürend, Hunger habend",
+
+ "Kohldampf haben": "sehr aufs Essen bedacht, unersättlich im Esse, einen Bärenhunger haben",
+
+ "am Verhungern": "aufgrund von Nahrungsmangel gestorben, ausgehungert, verhungert, gedarbt",
+
+ "Mordshunger haben": "ausgehungert, verhungert, gehungert, vor Hunger fast gestorben"
+
+}
+
+Q: {
