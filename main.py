@@ -52,7 +52,7 @@ app.add_middleware(
 @app.post("/api/v1/findwords/")
 async def ask_gpt(query: Query):
     prompt = build_prompt(query)
-    # TODO max_tokens needs to be calculated based on required number of suggestions
+
     result = await cleaned_completion(prompt, max_tokens=2000, engine='davinci', temperature=0.65, top_p=1,
                                       frequency_penalty=0.2, stop=['}'])
     suggestions = result.replace('"', '').replace('\n', '').split(';')[:query.max_suggestions]
