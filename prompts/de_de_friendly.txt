@@ -1,4 +1,4 @@
-German descriptions that generate a set of matching German words. The meaning of each matching word is given a good descriptions in German. The answer is in JSON format.
+German descriptions that generate a set of matching German words. The meaning of each matching word is given good examples in German. . The answer is returned in JSON format.
 
 Q: wenn etwas oder jemand abrupt irgendwo weggeht
 
