@@ -1,4 +1,4 @@
-Englisch descriptions that generate a set of matching German words. The meaning of each matching word is given a good descriptions in Englisch. The answer is in JSON format.
+English descriptions that generate a set of matching German words. The meaning of each matching German word is given good examples in English. The answer is returned in JSON format.
 
 Q: if somebody abruptly leaves a place
 

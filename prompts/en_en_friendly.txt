@@ -1,16 +1,16 @@
-German descriptions that generate a set of matching English words. The meaning of each matching word is given a good descriptions in German. The answer is in JSON format.
+English descriptions that generate a set of matching English words. The meaning of each matching word is given a good examples. The answer is returned in JSON format.
 
 Q: when something or someone abruptly leaves somewhere
 
 {
 
- "abscond":"usually quickly and with little preparation, flee from an imminent danger or from an unpleasant situation";
+ "abscond":"usually quickly and with little preparation, flee from an imminent danger or from an unpleasant situation",
 
- "bolt": "move away";
+ "bolt": "move away quickly, to run away in fear or surprise",
 
- "decamp": "die Außerbetriebnahme bekanntgeben";
+ "decamp": "to depart suddenly, to leave suddenly and unexpectedly, to leave without telling anyone",
 
- "depart": "to move away from a place (while driving, in a vehicle)"
+ "depart": "to go away from a place, to turn aside, leave on a trip"
 
 }
 
@@ -18,11 +18,11 @@ Q: a mixture of horrible noises
 
 {
 
- "cacophony": "Tones/sounds that are perceived as particularly unpleasant";
+ "cacophony": "Tones/sounds that are perceived as particularly unpleasant, an unpleasant mixture of sounds",
 
- "screaming": "Noise caused by loud, sustained vocalizations (screaming) of living beings.";
+ "screaming": "Noise caused by loud, sustained vocalizations of living beings",
 
- "discord: "inharmonic, unattractive sound"
+ "discord: "inharmonic, unattractive sound, lack of agreement or harmony"
 
 }
 
@@ -30,13 +30,13 @@ Q: feeling very hungry
 
 {
 
- "hungry": "Feeling hungry, being hungry";
+ "hungry": "Feeling hungry, being hungry",
 
- "ravenous": "very concerned about food, insatiable in eating";
+ "ravenous": "very concerned about food, insatiable in eating",
 
- "starved": "die due to lack of food";
+ "starved": "die due to lack of food, to not have enough of something that is needed",
 
- "famished": "being extremely hungry"
+ "famished": "being extremely hungry, intensely hungry"
 
 }
 
