@@ -80,9 +80,9 @@ def build_prompt(user_query: Query):
             user_query.tonality is Tonality.Friendly:
         train = read_prompt('de_de_friendly')
     elif user_query.input_language is Languages.English and \
-            user_query.output_language is Languages.English and \
+            user_query.output_language is Languages.German and \
             user_query.tonality is Tonality.Friendly:
-        train = read_prompt('en_en_friendly')
+        train = read_prompt('en_de_friendly')
     else:
         raise NotImplementedError
 
