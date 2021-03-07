@@ -67,21 +67,21 @@ async def ask_gpt(query: Query):
 
 
 def build_prompt(user_query: Query):
-    if user_query.input_language == Languages.English and \
-            user_query.output_language == Languages.English and \
-            user_query.tonality == Tonality.Friendly:
+    if user_query.input_language is Languages.English and \
+            user_query.output_language is Languages.English and \
+            user_query.tonality is Tonality.Friendly:
         train = read_prompt('en_en_friendly')
-    elif user_query.input_language == Languages.German and \
-            user_query.output_language == Languages.English and \
-            user_query.tonality == Tonality.Friendly:
+    elif user_query.input_language is Languages.German and \
+            user_query.output_language is Languages.English and \
+            user_query.tonality is Tonality.Friendly:
         train = read_prompt('de_en_friendly')
-    elif user_query.input_language == Languages.German and \
-            user_query.output_language == Languages.German and \
-            user_query.tonality == Tonality.Friendly:
+    elif user_query.input_language is Languages.German and \
+            user_query.output_language is Languages.German and \
+            user_query.tonality is Tonality.Friendly:
         train = read_prompt('de_de_friendly')
-    elif user_query.input_language == Languages.English and \
-            user_query.output_language == Languages.English and \
-            user_query.tonality == Tonality.Friendly:
+    elif user_query.input_language is Languages.English and \
+            user_query.output_language is Languages.English and \
+            user_query.tonality is Tonality.Friendly:
         train = read_prompt('en_en_friendly')
     else:
         raise NotImplementedError
